@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="it" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>BigliettiTreno</title>
+    <link rel="stylesheet" href="Css/style.css">
+  </head>
+  <body>
+    <!-- Sezione di richiesta info -->
+  <section id="request">
+    <div class="size">
+      <div class="colonna">
+        <div class="titolo">
+          <h2>Nome del passeggero</h2>
+        </div>
+        <input id="nome" type="text" name="" placeholder="Inserisci il tuo nome">
+      </div>
+      <div class="colonna">
+        <div class="titolo">
+          <h2>Chilometri da percorrere</h2>
+        </div>
+        <input id="km" type="number" name="" placeholder="0.00">
+      </div>
+      <div class="colonna">
+        <div class="titolo">
+          <h2>Fascia d'età del passeggero</h2>
+        </div>
+        <select id="eta" name="">
+          <option value="minorenne">Minorenne</option>
+          <option value="maggiorenne">Maggiorenne</option>
+          <option value="over65">Over 65</option>
+        </select>
+      </div>
+    </div>
+  </section>
+  <div class="size">
+    <button id="genera" type="button" name="button">Genera</button>
+    <button id="annulla" type="button" name="button">Annulla</button>
+  </div>
+
+  <section id="vendita">
+    <div class="size">
+      <aside class="">
+        <div class="titolo">
+          <h2>Nome Passeggero</h2>
+        </div>
+        <span id="nomepasseggero">none</span>
+      </aside>
+      <main>
+        <div class="colonna">
+          <div class="titolo">
+            <h3>Offerta</h3>
+          </div>
+          <span id="Offerta">none</span>
+        </div>
+        <div class="colonna">
+          <div class="titolo">
+            <h3>Carrozza</h3>
+          </div>
+          <span id="carrozza">none</span>
+        </div>
+        <div class="colonna">
+          <div class="titolo">
+            <h3>Codice CP</h3>
+          </div>
+          <span id="codice">none</span>
+        </div>
+        <div class="colonna">
+          <div class="titolo">
+            <h3>Costo biglietto</h3>
+          </div>
+          <span id="costobiglietto">none</span>
+        </div>
+      </main>
+    </div>
+
+
+  </section>
+
+
+
+
+
+
+    <script type="text/javascript" src="Js/main.js"></script>
+  </body>
+</html>

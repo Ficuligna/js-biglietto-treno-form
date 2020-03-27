@@ -1,0 +1,48 @@
+*{
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+}
+section{
+  height: 200px;
+  background-color: green;
+}
+.size{
+  margin: auto;
+  height: 100%;
+  max-width: 1170px;
+  display: flex;
+  justify-content: center;
+
+}
+main{
+  display: flex;
+  width: 70%;
+}
+main .colonna{
+  align-content: flex-start;
+
+}
+aside{
+  text-align: center;
+  width: 30%;
+}
+.titolo{
+  text-align: center;
+  flex-basis: 100%;
+}
+.colonna{
+  height: 100%;
+  flex-basis: 33.33%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: center;
+}
+button{
+  width: 200px;
+  align-self: center;
+}
+#vendita{
+  opacity: 0.4
+}
